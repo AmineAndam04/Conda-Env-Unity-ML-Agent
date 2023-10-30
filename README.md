@@ -12,9 +12,9 @@ In this repository, you can  a YAML file that presents a ready-to-use Anaconda e
  3. Clone the ML-Agents Toolkit Repository:  ```git clone --branch release_20 https://github.com/Unity-Technologies/ml-agents.git```
  4. Run:
 ```sh
-pip3 install torch -f https://download.pytorch.org/whl/torch_stable.html
-pip3 install -e ./ml-agents-envs
-pip3 install -e ./ml-agents
+cd /path/to/ml-agents
+python -m pip install ./ml-agents-envs
+python -m pip install ./ml-agents
 ```
   5. To test run ```mlagents-learn --help```. If it executes without errors, you're all set
 
