@@ -10,7 +10,8 @@ In this repository, you can  a YAML file that presents a ready-to-use Anaconda e
     ```conda env create -f ml-agents.yaml```
 
  3. Clone the ML-Agents Toolkit Repository:  ```git clone --branch release_20 https://github.com/Unity-Technologies/ml-agents.git```
- 4. Run:
+ 4. Activate the newly created environment ```conda activate ml-agents```
+ 5. Run:
 ```sh
 cd /path/to/ml-agents
 python -m pip install ./ml-agents-envs
