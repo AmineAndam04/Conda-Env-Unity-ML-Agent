@@ -4,7 +4,10 @@ Unity ML Agent is a useful toolkit for researchers and hobbyists to create custo
 
 In this repository, you can  a YAML file that presents a ready-to-use Anaconda environment, purpose-built for your Unity ML-Agents toolkit. This spares you the need to tackle dependency conflicts one by one. 
 
-# How to use
+# How to use (1)
+  1. Create a conda environment (use python )
+  2. Install the libraries in  requirements.txt file
+# How to use (2)
  1. Download the yaml file.
  2. Run:
     ```conda env create -f ml-agents.yaml```
